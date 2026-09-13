@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="94" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/modDesc.xsd">
+    <author>GBModding</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Attingham Park</en>
+    </title>
+    <description>
+<en><![CDATA[Welcome to Attingham Park
+As a newcomer to agriculture and the area, you've got a job at the local BGA, which luckily has some equipment that you can use, but that comes at a price.
+Can you be successful and work your way up to one of the available farms in the area or even build your own, the choice is yours.
+
+Terrain height and field sizes correspond to real life
+Real Map PDA
+Precision farming ready with realistic soil map
+Removeable hedge collisions (trigger in store).
+
+47 Fields 
+2 Forestry areas
+Water source at river crossing
+Productions and sellpoints included in the map 
+Custom seasonal growth plan with Cotton and Sugarcane removed
+
+Most things only work once the land has been bought Animals, silos etc.
+Malthouse Farm - horses & pigs
+Brompton Farmhouse - chickens and cows
+Crossfields Dairy - cows and sheep
+Atcham Fishing Club - hourly income when buying land
+
+Have fun.]]></en>
+
+
+
+
+        <de><![CDATA[Willkommen in Attingham Park
+Als Neuling in der Landwirtschaft und in der Region hast du einen Job bei der örtlichen BGA, die glücklicherweise über einige Geräte verfügt, die du nutzen kannst, aber das hat seinen Preis.
+Kannst du erfolgreich sein und dich zu einem der verfügbaren Bauernhöfe in der Gegend hocharbeiten oder sogar deinen eigenen bauen - du hast die Wahl.
+
+Geländehöhe und Feldgrößen entsprechen der Realität
+Reale Map PDA
+Precision Farming ready mit realistischer Bodenkarte
+Entfernbare Hecken-Kollisionen (Trigger beim Händler).
+
+47 Felder 
+2 Forstwirtschaftliche Flächen
+Wasserquelle an einer Flusskreuzung
+Produktionen und Verkaufsstellen auf der Karte 
+Benutzerdefinierter saisonaler Wachstumsplan, bei dem Baumwolle und Zuckerrohr entfernt wurden
+
+Die meisten Dinge funktionieren nur, wenn das Land gekauft wurde Tiere, Silos usw.
+Malthouse Farm - Pferde & Schweine
+Brompton Farmhaus - Hühner und Kühe
+Crossfields Molkerei - Kühe und Schafe
+Atcham Angelclub - Stündliches Einkommen bei Landkauf
+
+Viel Spaß.]]></de>
+      <fr><![CDATA[Bienvenue à Attingham Park
+En tant que nouveau venu dans l'agriculture et dans la région, vous avez un emploi au sein du BGA local, qui dispose heureusement de quelques dispositifs que vous pouvez utiliser, mais cela a un prix.
+Pouvez-vous réussir et gravir les échelons jusqu'à l'une des fermes disponibles dans la région ou même construire la vôtre, le choix vous appartient.
+
+La hauteur du terrain et la taille des champs correspondent à la réalité
+Carte réelle PDA
+Support de l'agriculture de précision avec une carte des sols réelle
+Collisions de haies amovibles (déclenchement en magasin).
+
+47 Champs 
+2 zones forestières
+Source d'eau au passage d'une rivière
+Productions et points de vente inclus dans la carte 
+Plan de croissance saisonnier personnalisé avec le coton et la canne à sucre supprimés.
+
+La plupart des choses ne fonctionnent que si le terrain a été acheté Animaux, silos, etc.
+Malthouse Farm - chevaux et cochons
+Ferme de Brompton - poulets et vaches
+Laiterie Crossfields - vaches et moutons
+Atcham Fishing Club - revenu horaire lors de l'achat de la terre
+
+Amusez-vous bien.]]>
+</fr>
+</description>
+    <iconFilename>icon.png</iconFilename>
+    <multiplayer supported="true"/>
+    
+    <storeItems>
+        <storeItem xmlFilename="maps/placeables/sellingStationBakery.xml"/>
+        <storeItem xmlFilename="maps/placeables/sellingStationCheeseDairy.xml"/>
+        <storeItem xmlFilename="maps/placeables/sellingStationBales.xml"/>
+        <storeItem xmlFilename="maps/placeables/sellingStationFarmShop.xml"/>
+        <storeItem xmlFilename="maps/placeables/sellingStationGrainElevator.xml"/>
+        <storeItem xmlFilename="maps/placeables/sellingStationGrainMill.xml"/>
+        <storeItem xmlFilename="maps/placeables/sawmill.xml"/>
+        <storeItem xmlFilename="maps/placeables/sellingStationMarket.xml"/>
+        <storeItem xmlFilename="maps/placeables/sellingStationCountyStores.xml"/>
+        <storeItem xmlFilename="maps/placeables/sellingStationWool.xml"/>
+        <storeItem xmlFilename="maps/placeables/MrSplits.xml"/>
+        <storeItem xmlFilename="maps/placeables/greenhouseLarge.xml"/>
+        <storeItem xmlFilename="maps/placeables/sellingStationHotel.xml"/>
+        <storeItem xmlFilename="maps/placeables/bunkerSiloMedium.xml"/>
+        <storeItem xmlFilename="maps/placeables/workshopCF.xml"/>
+        <storeItem xmlFilename="maps/placeables/workshopBR.xml"/>
+        <storeItem xmlFilename="maps/placeables/workshopMH.xml"/>
+        <storeItem xmlFilename="maps/placeables/animals/crossFieldsDairy/sheepCrossFieldsDairy.xml"/>
+        <storeItem xmlFilename="maps/placeables/animals/crossFieldsDairy/cowsCrossFieldsDairy.xml"/>
+        <storeItem xmlFilename="maps/placeables/animals/bromptonFarmhouse/cowsBromptonFarmhouse.xml"/>
+        <storeItem xmlFilename="maps/placeables/animals/malthouseFarm/horsesMalthouseFarm.xml"/>
+        <storeItem xmlFilename="maps/placeables/animals/malthouseFarm/pigsMalthouseFarm.xml"/>
+        <storeItem xmlFilename="maps/placeables/animals/sheepMiddle/sheepMiddle.xml"/>
+        <storeItem xmlFilename="maps/placeables/animals/animalDealerCows/animalDealerCows.xml"/>
+        <storeItem xmlFilename="maps/placeables/bunkerSiloBGA.xml"/>
+        <storeItem xmlFilename="maps/placeables/animals/manureHeap.xml"/>
+        <storeItem xmlFilename="maps/placeables/farma400.xml"/>
+        <storeItem xmlFilename="maps/placeables/farma800.xml"/>
+        <storeItem xmlFilename="maps/placeables/liquidSilo.xml"/>
+        <storeItem xmlFilename="maps/placeables/dieselTank.xml"/>
+        <storeItem xmlFilename="maps/placeables/animals/bromptonFarmhouse/chickenBarnSmall.xml"/>
+        <storeItem xmlFilename="maps/placeables/buyManureSlurry.xml"/>
+        <storeItem xmlFilename="maps/placeables/buyPoint.xml"/>
+        <storeItem xmlFilename="maps/placeables/sellingStationWoodchips.xml"/>
+        <storeItem xmlFilename="maps/placeables/sellingStationSweetPotato.xml"/>
+        <storeItem xmlFilename="maps/placeables/wardrobeTrigger.xml"/>
+        <storeItem xmlFilename="maps/placeables/fishery.xml"/>
+        <storeItem xmlFilename="maps/placeables/sugarShack.xml"/>
+        <storeItem xmlFilename="maps/placeables/doorMat/doorMat.xml"/>
+        <storeItem xmlFilename="maps/placeables/workshopDG.xml"/>
+        <storeItem xmlFilename="maps/placeables/redDiesel.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/oldShed.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/shed1.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/shed2.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/shed3.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/shed4.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/shed5.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/shed6.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/shed7.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/shed8.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/shed9.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/shed10.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/shed11.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/shed12.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/shed13.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/shed14.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/shed15.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/shed16.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/shed17.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/shed18.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/shed19.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/shed20.xml"/>
+        <storeItem xmlFilename="maps/placeables/sheds/shed21.xml"/>
+        
+        <storeItem xmlFilename="maps/placeables/decoration/drainMH.xml"/>
+        <storeItem xmlFilename="maps/placeables/decoration/wallMH.xml"/>
+        <storeItem xmlFilename="maps/placeables/decoration/liquidManureTank.xml"/>
+        <storeItem xmlFilename="maps/placeables/decoration/containerBR.xml"/>
+        <storeItem xmlFilename="maps/placeables/decoration/wallBR.xml"/>
+        <storeItem xmlFilename="maps/placeables/decoration/wallCF.xml"/>
+        <storeItem xmlFilename="maps/placeables/decoration/wall2CF.xml"/>
+        <storeItem xmlFilename="maps/placeables/decoration/fenceBGA.xml"/>
+        
+    </storeItems>
+    
+    <l10n>
+<text name="shopItem_SunriseBakery"> <en>Sunrise Bakery</en> <de>Sunrise Bäckerei</de> <fr>Sunrise Bakery</fr> </text>
+<text name="shopItem_LowerCrossDairy"> <en>Lower Cross Dairy</en> <de>Lower Cross Molkerei</de> <fr>Lower Cross Dairy</fr> </text>
+<text name="shopItem_AtchamLivestockBales"> <en>Atcham Livestock Bales</en> <de>Atcham Viehzucht Ballen</de> <fr>Atcham Livestock Bales</fr> </text>
+<text name="shopItem_MrsHollandsVillageShop"> <en>Mrs Hollands Village Shop</en> <de>Mrs Hollands Dorfladen</de> <fr>Mrs Hollands Village Shop</fr> </text>
+<text name="shopItem_BritishGrain"> <en>British Grain</en> <de>British Getreide</de> <fr>British Grain</fr> </text>
+<text name="shopItem_TheOldWaterMill"> <en>The Old Water Mill</en> <de>Alte Wassermühle</de> <fr>The Old Water Mill</fr> </text>
+<text name="shopItem_LowerCrossSawmill"> <en>Lower Cross Sawmill</en> <de>Lower Cross Sägewerk</de> <fr>Lower Cross Sawmill</fr> </text>
+<text name="shopItem_IndoorMarket"> <en>Lower Cross Indoor Market</en> <de>Lower Cross Markthalle</de> <fr>Lower Cross Indoor Market</fr> </text>
+<text name="shopItem_CountyStores"> <en>County Stores</en> <de>County Laden</de> <fr>County Stores</fr> </text>
+<text name="shopItem_UrbanSheepClothing"> <en>Urban Sheep Clothing</en> <de>Urbane Schaf-Kleidung</de> <fr>Urban Sheep Clothing</fr> </text>
+<text name="shopItem_MrSplits"> <en>Mr Splits Furniture</en> <de>Mr Splits Möbel</de> <fr>Mr Splits Furniture</fr> </text>
+<text name="shopItem_Hotel"> <en>Hotel</en> <de>Hotel</de> <fr>Hotel</fr> </text>
+<text name="shopItem_sheepCrossFieldsDairy"> <en>Sheep Cross Fields Dairy</en> <de>Cross Fields Milchwirtschaft Schafe</de> <fr>Sheep Cross Fields Dairy</fr> </text>
+<text name="shopItem_cowsCrossFieldsDairy"> <en>Cows Cross Fields Dairy</en> <de>Cross Fields Milchwirtschaft Kühe</de> <fr>Cows Cross Fields Dairy</fr> </text>
+<text name="shopItem_animalDealerCows"> <en>Animal Dealer Cows</en> <de>Viehhändler Kühe</de> <fr>Animal Dealer Cows</fr> </text>
+<text name="shopItem_manureHeap360"> <en>Manure Heap 360 Rotation</en> <de>Misthaufen 360 Grad</de> <fr>Manure Heap 360 Rotation</fr> </text>
+<text name="shopItem_cowsBromptonFarmhouse"> <en>Cows Brompton Farmhouse</en> <de>Brompton Farmhaus Kühe</de> <fr>Cows Brompton Farmhouse</fr> </text>
+<text name="shopItem_chickenBarnSmallBromptonFarmhouse"> <en>Chickens Brompton Farmhouse</en> <de>Brompton Farmhaus Hühner</de> <fr>Chickens Brompton Farmhouse</fr> </text>
+<text name="shopItem_horsesMalthouseFarm"> <en>Horses Malthouse Farm</en> <de>Malthouse Farm Pferde</de> <fr>Horses Malthouse Farm</fr> </text>
+<text name="shopItem_pigsMalthouseFarm"> <en>Pigs Malthouse Farm</en> <de>Malthouse Farm Schweine</de> <fr>Pigs Malthouse Farm</fr> </text>
+<text name="shopItem_buyManureSlurry"> <en>Purchase Manure and Slurry</en> <de>Ankauf von Mist und Gülle</de> <fr>Purchase Manure and Slurry</fr> </text>
+<text name="shopItem_buyPoint"> <en>Purchase Point</en> <de>Kaufstelle</de> <fr>Purchase Point</fr> </text>
+<text name="shopItem_sellingStationWoodchips"> <en>Lower Cross Sawmill Woodchips</en> <de>Lower Cross Sägewerk Hackschnitzel</de> <fr>Lower Cross Sawmill Woodchips</fr> </text>
+<text name="shopItem_sheepMiddle"> <en>Sheep Pen</en> <de>Schafstall</de> <fr>Sheep Pen</fr> </text>
+<text name="shopItem_sweetPotato"> <en>Sweet Potato</en> <de>Süßkartoffel</de> <fr>Sweet Potato</fr> </text>
+<text name="shopItem_fishery"> <en>Atcham Fishing Club</en> <de>Atcham Angelclub</de> <fr>Atcham Fishing Club</fr> </text>
+<text name="shopItem_sugarShack"> <en>Sugar Shack</en> <de>Zuckerhäuschen</de> <fr>Sugar Shack</fr> </text>
+<text name="shopItem_doorMat"> <en>Farm house doormat</en> <de>Bauernhof Fußmatte</de> <fr>Paillasson fermier</fr> </text>
+<text name="shopItem_DG"> <en>D and G Auto Repairs</en> <de>D und G Autowerkstatt</de> <fr>D and G Auto Repairs</fr> </text>
+<text name="shopItem_liquidSilo"> <en>Liquid Silo</en> <de>Flüssigkeitssilo</de> <fr>Liquid Silo</fr> </text>
+<text name="shopItem_shed"> <en>Shed</en> <de>Schuppen</de> <fr>Shed</fr> </text>
+<text name="shopItem_decoration"> <en>Remove Decoration</en> <de>Dekoration entfernen</de> <fr>Remove Decoration</fr> </text>
+
+<text name="openGate">
+<en>Open Gate</en>
+<de>Tor öffnen</de>
+</text>
+<text name="closeGate">
+<en>Close Gate</en>
+<de>Tor schließen</de>
+</text>
+<text name="openDoor">
+<en>Open Door</en>
+<de>Tür öffnen</de>
+</text>
+<text name="closeDoor">
+<en>Close Door</en>
+<de>Tür schließen</de>
+</text>
+
+<text name="hedgeColsOff">
+<en>Hedge collision off</en>
+<de>Hecken-Kollision aus</de>
+<fr>Collision de haies au large</fr>
+</text>
+<text name="hedgeColsOn">
+<en>Hedge collision on</en>
+<de>Hecken-Kollision an</de>
+<fr>Collision de haies sur</fr>
+</text>
+</l10n>
+    
+    <maps>
+<map id="SampleModMap" className="Mission00" filename="$dataS/scripts/mission00.lua" configFilename="maps/map.xml" defaultVehiclesXMLFilename="maps/vehicles.xml" defaultPlaceablesXMLFilename="maps/placeables.xml" defaultItemsXMLFilename="maps/items.xml" defaultHandToolsXMLFilename="$data/maps/mapUS/config/handTools.xml">
+<title>
+<en>Attingham Park</en>
+</title>
+<description>
+<en>Welcome to Attingham Park</en>
+<de>Willkommen in Attingham Park</de>
+</description>
+<iconFilename>preview.png</iconFilename>
+</map>
+</maps>
+
+</modDesc>
